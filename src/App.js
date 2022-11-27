@@ -22,6 +22,9 @@ function App() {
       <section id="pc" class="section2">
         <Mobile/>
       </section>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
