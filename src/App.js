@@ -9,20 +9,19 @@ import Footer from './footer';
 function App() {
 
   return (
-    <div>
-      <NavBar />
-      <div>
-        <Home />
-      </div>
-      <div>
-        <Desktop />
-      </div>
-      <div>
-        <Mobile />
-      </div>
-      <div>
-        <Footer/>
-      </div>
+    <div className='App'>
+      <nav className='nav'>
+        <NavBar/>
+      </nav>
+      <section id="home" class="section1">
+        <Home/>
+      </section>
+      <section id="pc" class="section2">
+        <Desktop/>
+      </section>
+      <section id="pc" class="section2">
+        <Mobile/>
+      </section>
     </div>
   );
 }

@@ -24,43 +24,41 @@ import img23 from "./Images/Desktop/wp2990058.jpg";
 
 const Desktop = () => {
     return ( 
-        <div>
             <section id="pc" class="section2">
                 <h2>desktop Wallpapers</h2>
                 <p>browse these stunning desktop wallpapers</p>
                 <div class="row">
-                    <div class="column">
-                        <img src={img1} alt=""/>
-                        <img src={img2} alt=""/>
-                        <img src={img3} alt=""/>
-                        <img src={img4} alt=""/>
-                        <img src={img5} alt=""/>
-                        <img src={img6} alt=""/>
-                        <img src={img7} alt=""/>
-                    </div>
-                    <div class="column">
-                        <img src={img8} alt=""/>
-                        <img src={img9} alt=""/>
-                        <img src={img10} alt=""/>
-                        <img src={img11} alt=""/>
-                        <img src={img12} alt=""/>
-                        <img src={img13} alt=""/>
-                        <img src={img14} alt=""/>
-                        <img src={img15} alt=""/>
-                    </div>
-                    <div className="column">
-                        <img src={img16} alt=""/>
-                        <img src={img17} alt=""/>
-                        <img src={img18} alt=""/>
-                        <img src={img19} alt=""/>
-                        <img src={img20} alt=""/>
-                        <img src={img21} alt=""/>
-                        <img src={img22} alt=""/>
-                        <img src={img23} alt=""/>
-                    </div>
+                <div class="column">
+                    <img className="desktopImg" src={img1} alt=""/>
+                    <img className="desktopImg" src={img2} alt=""/>
+                    <img className="desktopImg" src={img3} alt=""/>
+                    <img className="desktopImg" src={img4} alt=""/>
+                    <img className="desktopImg" src={img5} alt=""/>
+                    <img className="desktopImg" src={img6} alt=""/>
+                    <img className="desktopImg" src={img7} alt=""/>
                 </div>
-            </section>
-        </div>
+                <div class="column">
+                    <img className="desktopImg" src={img8} alt=""/>
+                    <img className="desktopImg" src={img9} alt=""/>
+                    <img className="desktopImg" src={img10} alt=""/>
+                    <img className="desktopImg" src={img11} alt=""/>
+                    <img className="desktopImg" src={img12} alt=""/>
+                    <img className="desktopImg" src={img13} alt=""/>
+                    <img className="desktopImg" src={img14} alt=""/>
+                    <img className="desktopImg" src={img15} alt=""/>
+                </div>
+                <div className="column">
+                    <img className="desktopImg" src={img16} alt=""/>
+                    <img className="desktopImg" src={img17} alt=""/>
+                    <img className="desktopImg" src={img18} alt=""/>
+                    <img className="desktopImg" src={img19} alt=""/>
+                    <img className="desktopImg" src={img20} alt=""/>
+                    <img className="desktopImg" src={img21} alt=""/>
+                    <img className="desktopImg" src={img22} alt=""/>
+                    <img className="desktopImg" src={img23} alt=""/>
+                </div>
+            </div>
+        </section>
      );
 }
  

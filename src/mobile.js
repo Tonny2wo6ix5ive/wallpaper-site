@@ -61,80 +61,78 @@ import img59 from "./Images/Mobile Wallpaper/IMG_20220619_133318_693.jpg";
 
 const Mobile = () => {
     return ( 
-        <div>
-            <section id="mobile" class="section3">
-                <h2 class="h22">Mobile</h2>
-                <p>browse more Mobile wallpapers.</p>
-                <div class="Mrow">
-                    <div class="Mcolumn">
-                        <img class="mobiles" src={img0} alt=""/>
-                        <img class="mobiles" src={img1} alt=""/>
-                        <img class="mobiles" src={img2} alt=""/>
-                        <img class="mobiles" src={img3} alt=""/>
-                        <img class="mobiles" src={img4} alt=""/>
-                        <img class="mobiles" src={img5} alt=""/>
-                        <img class="mobiles" src={img6} alt=""/>
-                        <img class="mobiles" src={img7} alt=""/>
-                        <img class="mobiles" src={img8} alt=""/>
-                        <img class="mobiles" src={img9} alt=""/>
-                        <img class="mobiles" src={img10}alt=""/>
-                        <img class="mobiles" src={img11}alt=""/>
-                        <img class="mobiles" src={img12} alt=""/>
-                        <img class="mobiles" src={img13} alt=""/>
-                        <img class="mobiles" src={img14} alt=""/>
-                        <img class="mobiles" src={img15} alt=""/>
-                        <img class="mobiles" src={img16} alt=""/>
-                        <img class="mobiles" src={img17} alt=""/>
-                        <img class="mobiles" src={img18} alt=""/>
-                    </div>
-                    <div class="Mcolumn">
-                        <img class="mobiles" src={img19} alt=""/>
-                        <img class="mobiles" src={img20} alt=""/>
-                        <img class="mobiles" src={img21} alt=""/>
-                        <img class="mobiles" src={img22} alt=""/>
-                        <img class="mobiles" src={img23} alt=""/>
-                        <img class="mobiles" src={img24} alt=""/>
-                        <img class="mobiles" src={img25} alt=""/>
-                        <img class="mobiles" src={img26} alt=""/>
-                        <img class="mobiles" src={img27} alt=""/>
-                        <img class="mobiles" src={img28} alt=""/>
-                        <img class="mobiles" src={img29} alt=""/>
-                        <img class="mobiles" src={img30} alt=""/>
-                        <img class="mobiles" src={img31} alt=""/>
-                        <img class="mobiles" src={img32} alt=""/>
-                        <img class="mobiles" src={img33} alt=""/>
-                        <img class="mobiles" src={img34} alt=""/>
-                        <img class="mobiles" src={img35} alt=""/>
-                        <img class="mobiles" src={img36} alt=""/>
-                        <img class="mobiles" src={img37} alt=""/>
-                        <img class="mobiles" src={img38} alt=""/>
-                    </div>
-                    <div class="Mcolumn">
-                        <img class="mobiles" src={img39} alt=""/>
-                        <img class="mobiles" src={img40} alt=""/>
-                        <img class="mobiles" src={img41} alt=""/>
-                        <img class="mobiles" src={img42} alt=""/>
-                        <img class="mobiles" src={img43} alt=""/>
-                        <img class="mobiles" src={img44} alt=""/>
-                        <img class="mobiles" src={img45} alt=""/>
-                        <img class="mobiles" src={img46} alt=""/>
-                        <img class="mobiles" src={img47} alt=""/>
-                        <img class="mobiles" src={img48} alt=""/>
-                        <img class="mobiles" src={img49} alt=""/>
-                        <img class="mobiles" src={img50} alt=""/>
-                        <img class="mobiles" src={img51} alt=""/>
-                        <img class="mobiles" src={img52} alt=""/>
-                        <img class="mobiles" src={img53} alt=""/>
-                        <img class="mobiles" src={img54} alt=""/>
-                        <img class="mobiles" src={img55} alt=""/>
-                        <img class="mobiles" src={img56} alt=""/>
-                        <img class="mobiles" src={img57} alt=""/>
-                        <img class="mobiles" src={img58} alt=""/>
-                        <img class="mobiles" src={img59} alt=""/>
-                    </div>
+        <section id="mobile" class="section3">
+            <h2 class="h22">Mobile</h2>
+            <p>browse more Mobile wallpapers.</p>
+            <div class="Mrow">
+                <div class="Mcolumn">
+                    <img class="mobiles" src={img0} alt=""/>
+                    <img class="mobiles" src={img1} alt=""/>
+                    <img class="mobiles" src={img2} alt=""/>
+                    <img class="mobiles" src={img3} alt=""/>
+                    <img class="mobiles" src={img4} alt=""/>
+                    <img class="mobiles" src={img5} alt=""/>
+                    <img class="mobiles" src={img6} alt=""/>
+                    <img class="mobiles" src={img7} alt=""/>
+                    <img class="mobiles" src={img8} alt=""/>
+                    <img class="mobiles" src={img9} alt=""/>
+                    <img class="mobiles" src={img10}alt=""/>
+                    <img class="mobiles" src={img11}alt=""/>
+                    <img class="mobiles" src={img12} alt=""/>
+                    <img class="mobiles" src={img13} alt=""/>
+                    <img class="mobiles" src={img14} alt=""/>
+                    <img class="mobiles" src={img15} alt=""/>
+                    <img class="mobiles" src={img16} alt=""/>
+                    <img class="mobiles" src={img17} alt=""/>
+                    <img class="mobiles" src={img18} alt=""/>
+                </div>
+                <div class="Mcolumn">
+                    <img class="mobiles" src={img19} alt=""/>
+                    <img class="mobiles" src={img20} alt=""/>
+                    <img class="mobiles" src={img21} alt=""/>
+                    <img class="mobiles" src={img22} alt=""/>
+                    <img class="mobiles" src={img23} alt=""/>
+                    <img class="mobiles" src={img24} alt=""/>
+                    <img class="mobiles" src={img25} alt=""/>
+                    <img class="mobiles" src={img26} alt=""/>
+                    <img class="mobiles" src={img27} alt=""/>
+                    <img class="mobiles" src={img28} alt=""/>
+                    <img class="mobiles" src={img29} alt=""/>
+                    <img class="mobiles" src={img30} alt=""/>
+                    <img class="mobiles" src={img31} alt=""/>
+                    <img class="mobiles" src={img32} alt=""/>
+                    <img class="mobiles" src={img33} alt=""/>
+                    <img class="mobiles" src={img34} alt=""/>
+                    <img class="mobiles" src={img35} alt=""/>
+                    <img class="mobiles" src={img36} alt=""/>
+                    <img class="mobiles" src={img37} alt=""/>
+                    <img class="mobiles" src={img38} alt=""/>
+                </div>
+                <div class="Mcolumn">
+                    <img class="mobiles" src={img39} alt=""/>
+                    <img class="mobiles" src={img40} alt=""/>
+                    <img class="mobiles" src={img41} alt=""/>
+                    <img class="mobiles" src={img42} alt=""/>
+                    <img class="mobiles" src={img43} alt=""/>
+                    <img class="mobiles" src={img44} alt=""/>
+                    <img class="mobiles" src={img45} alt=""/>
+                    <img class="mobiles" src={img46} alt=""/>
+                    <img class="mobiles" src={img47} alt=""/>
+                    <img class="mobiles" src={img48} alt=""/>
+                    <img class="mobiles" src={img49} alt=""/>
+                    <img class="mobiles" src={img50} alt=""/>
+                    <img class="mobiles" src={img51} alt=""/>
+                    <img class="mobiles" src={img52} alt=""/>
+                    <img class="mobiles" src={img53} alt=""/>
+                    <img class="mobiles" src={img54} alt=""/>
+                    <img class="mobiles" src={img55} alt=""/>
+                    <img class="mobiles" src={img56} alt=""/>
+                    <img class="mobiles" src={img57} alt=""/>
+                    <img class="mobiles" src={img58} alt=""/>
+                    <img class="mobiles" src={img59} alt=""/>
+                </div>
                 </div>
             </section>
-        </div>
      );
 }
  
