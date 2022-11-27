@@ -61,6 +61,10 @@ nav ul li a.link1:active{
   text-decoration: underline;
 }
 
+#menus{
+  border-radius: 0;
+}
+
 label.menu{
   display: none;
   margin-right: 20px;
@@ -187,7 +191,7 @@ section.section2 div.row{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 section.section2 div.column{
@@ -204,7 +208,7 @@ img{
 }
 
 @media (max-width: 800px){
-  img.desktopImg{
+  img{
     width: 100%
   }
   
@@ -291,6 +295,12 @@ h2.h2{
   color: #ffffff;
 }
 
+footer ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 footer ul li{
   display: flex;
   padding: 0;
@@ -302,7 +312,7 @@ footer ul li a{
   text-decoration: none;
   border: 1px solid transparent;
   background-color: #40a8e8;
-  padding: 10px 15px;
+  padding: 0px 5px;
   transition: .5s;
 }
 
